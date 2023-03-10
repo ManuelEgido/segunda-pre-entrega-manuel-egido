@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/favicon.jpeg">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Asesoria Online - Habeas Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,400&display=swap"
+        rel="stylesheet">
+    <link href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div id="navBar">
+                <img src="../imagenes/favicon.jpeg" id="logo" alt="Logo">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./doctrina.html">doctrina</a></li>
+                    <li><a href="./jurisprudencia.html">jurisprudencia</a></li>
+                    <li><a href="./mentorias.html">Mentorias</a></li>
+                    <li><a href="./asesoriaonline.html">Asesoria Online</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1>Asesoria Online</h1>
+
+    <form>
+        <fieldset>
+        <div class="row">
+            <div class="col-6">
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div class="col-6">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+            </div>
+            <div class="col-6">
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono">
+            </div>
+            <div class="col-6">
+                <label for="mail">Mail</label>
+                <input type="email" name="mail" id="mail">
+            </div>
+            <div class="col-6">
+                <label for="localidad">Localidad</label>
+                <input type="text" name="localidad" id="localidad">
+            </div>
+            <div class="col-6">
+                <label for="horario-de-referencia">Horario de Referencia</label>
+                <input type="time" name="horario-de-referencia" min="8:00" max="18:00" step="1800" id="horario-de-referencia">
+            </div>
+            <div class="col-12">
+                <p>Estado civil</p>
+                <select name="estado-civil" id="estado-civil">
+                    <option value="soltero">Soltero</option>
+                    <option value="casado">Casado</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="conviviente">Conviviente</option>
+                    <option value="viudo">Viudo</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <label for="comentario-sobre-su-consulta">Comentario sobre su consulta</label>
+                <textarea name="comentario" id="comentario-sobre-su-consulta" cols="30" rows="10"></textarea>
+            </div>
+            <div class="col-6">
+                <label for="newsletter">Deseo recibir newsletter</label>
+                <input type="checkbox" name="newsletter" id="newsletter">
+            </div>
+            <div class="col-6">
+                <button type="reset">Borrar Formulario</button><button type="submit">Enviar Formulario</button>
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <div class="row">
+            <div class="col-md-4 linkRedes">
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.linkedin.com/">Linkedin</a>
+                <a href="https://twitter.com/">Twitter</a>
+                <a href="https://www.youtube.com/">Youtube</a>
+            </div>
+            <div class="col-md-4">
+                Contacto:
+                <a href="https://web.whatsapp.com/">Whatsapp</a>
+                <a
+                href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWsCPcBmlDKtgdDbDHQzxnwzDDTjjQbTjRxcDsxSSmrzXCcvWVBLWfhVXwGJjsvVhrgkzslwg">maildecontacto@gmail.com</a>
+            </div>
+            <div class="col-md-4">
+                Comparti Nuestra pagina:
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://twitter.com/">Twitter</a>
+                <a href="https://www.youtube.com/">Youtube</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

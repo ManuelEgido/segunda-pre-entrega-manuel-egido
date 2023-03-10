@@ -1,0 +1,123 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #8785a2;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #6c6a8a;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    background-color: #a3a2b8;
+    margin-left:-50px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+   
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 900;
+    margin: 30px;
+
+}
+#navBar {
+    display:flex;
+}
+p {
+    text-align: justify;
+    padding: 20px;
+    
+}
+.nota-indice {
+    padding-left: 50px;
+}
+
+section div {
+    background-color: #dcdcdc;
+    padding-left: 50px;
+}
+
+#nota-rugbiers {
+    max-width: 90%;
+}
+
+#nota-maltrato {
+    max-width: 90%;   
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6c6a8a;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.nota-indice div p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.notasInicio {
+    display: flex wrap;
+    padding: 20px;
+}
+
+.img-box {
+    padding: 15px;
+    margin: 0px auto;
+}
+
+footer {
+    background-color: #a3a2b8;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: justify
+}
+
+footer a {
+    font-weight: bold;
+    color: #f0b49e;
+    display: block
+}
+
+footer div {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+/**
+footer {
+    background-color: #a3a2b8;
+    padding-left: 50px;
+
+
+    
+}
+footer div { 
+    display: inline-block;
+}
+
+footer a {
+    font-weight: bold;
+    color: #f0b49e;
+    display: block
+}**/
