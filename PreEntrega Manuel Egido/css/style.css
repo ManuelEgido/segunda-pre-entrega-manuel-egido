@@ -1,105 +1,108 @@
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: #8785a2;
-    margin-left: 50px;
+  font-family: "Lato", sans-serif;
+  background-color: #8785a2;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 a {
-    text-decoration: none;
-    color: #6c6a8a;
+  text-decoration: none;
+  color: #6c6a8a;
 }
 
 #logo {
-    height: 100px;
-    width: 100px;
-    padding: 10px;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
 }
 
 nav {
-    display: flex;
-    width: 100%;
-    justify-content:space-between;
-    background-color: #a3a2b8;
-    margin-left:-50px;
-
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #a3a2b8;
 }
-
+nav div {
+  display: flex;
+}
 nav ul {
-    list-style-type: none;
-    margin: 0px;
-   
+  list-style-type: none;
+  margin: 0px;
 }
-
 nav ul li {
-    display: inline-block;
-    font-size: 1.2em;
-    font-weight: 900;
-    margin: 30px;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 900;
+  margin: 30px;
+}
 
-}
-#navBar {
-    display:flex;
-}
 p {
-    text-align: justify;
-    padding: 20px;
-    
+  text-align: justify;
 }
+
 .nota-indice {
-    padding-left: 50px;
+  padding-left: 50px;
+  max-width: 90%;
 }
 
 section div {
-    background-color: #dcdcdc;
-    padding-left: 50px;
+  background-color: rgba(220, 220, 220, 0.7215686275);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 50px;
+  margin-bottom: 20px;
 }
 
-#nota-rugbiers {
-    max-width: 90%;
-}
-
-#nota-maltrato {
-    max-width: 90%;   
+h2 {
+  width: 60%;
 }
 
 h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #6c6a8a;
-    padding-top: 15px;
-    padding-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6c6a8a;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 60%;
 }
 
-.nota-indice div p {
-    padding: 20px;
-    text-align: justify;
-}
-
-.notasInicio {
-    display: flex wrap;
-    padding: 20px;
+.seccion {
+  display: flex wrap;
+  padding: 20px;
 }
 
 .img-box {
-    padding: 15px;
-    margin: 0px auto;
+  padding: 15px;
+  margin: 0px auto;
+  width: 700px;
+  height: 500px;
+}
+
+#ulMentoria {
+  list-style: none;
+  padding: 0px;
+  margin: opx;
+}
+
+.listaMentoria {
+  padding: 10px;
+  border-bottom: 1px solid #6c6a8a;
 }
 
 footer {
-    background-color: #a3a2b8;
-    padding: 20px;
-    margin-top: 50px;
-    text-align: justify
+  background-color: #a3a2b8;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: justify;
 }
-
-footer a {
-    font-weight: bold;
-    color: #f0b49e;
-    display: block
-}
-
 footer div {
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+footer a {
+  font-weight: bold;
+  color: #f0b49e;
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
