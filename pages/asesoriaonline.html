@@ -20,70 +20,91 @@
 <body>
 
     <header>
-        <nav>
-            <div>
-                <img src="../imagenes/favicon.jpeg" id="logo" alt="Logo">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./doctrina.html">doctrina</a></li>
-                    <li><a href="./jurisprudencia.html">jurisprudencia</a></li>
-                    <li><a href="./mentorias.html">Mentorias</a></li>
-                    <li><a href="./asesoriaonline.html">Asesoria Online</a></li>
-                </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../imagenes/favicon.jpeg" id="logo"
+                        alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./doctrina.html">doctrina</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./jurisprudencia.html">jurisprudencia</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./mentorias.html">Mentorias</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./asesoriaonline.html">Asesoria Online</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
-    <h1>Asesoria Online</h1>
+
 
     <form class="container">
+        <h1>Asesoria Online</h1>
         <fieldset>
-        <div class="row-cols-1">
-            <div class="col">
-                <legend>Datos personales</legend>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre">
-            </div>
-            <div class="col">
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido">
-            </div>
-            <div class="col">
-                <label for="telefono">Telefono</label>
-                <input type="tel" name="telefono" id="telefono">
-            </div>
-            <div class="col">
-                <label for="mail">Mail</label>
-                <input type="email" name="mail" id="mail">
-            </div>
-            <div class="col">
-                <label for="localidad">Localidad</label>
-                <input type="text" name="localidad" id="localidad">
-            </div>
-            <div class="col">
-                <label for="horario-de-referencia">Horario de Referencia</label>
-                <input type="time" name="horario-de-referencia" min="8:00" max="18:00" step="1800" id="horario-de-referencia">
-            </div>
-            <div class="col">
-                <p>Estado civil</p>
-                <select name="estado-civil" id="estado-civil">
-                    <option value="soltero">Soltero</option>
-                    <option value="casado">Casado</option>
-                    <option value="divorciado">Divorciado</option>
-                    <option value="conviviente">Conviviente</option>
-                    <option value="viudo">Viudo</option>
-                </select>
-            </div>
-            <div class="col">
-                <label for="comentario-sobre-su-consulta">Comentario sobre su consulta</label> <br>
-                <textarea name="comentario" id="comentario-sobre-su-consulta" cols="30" rows="10"></textarea>
-            </div>
-            <div class="col">
-                <label for="newsletter">Deseo recibir newsletter</label>
-                <input type="checkbox" name="newsletter" id="newsletter">
-            </div>
-            <div class="col">
-                <button type="reset">Borrar Formulario</button><button type="submit">Enviar Formulario</button>
-            </div>
+            <div class="row-cols-1">
+                <div class="col">
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+                <div class="col">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido">
+                </div>
+                <div class="col">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono">
+                </div>
+                <div class="col">
+                    <label for="mail">Mail</label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <div class="col">
+                    <label for="localidad">Localidad</label>
+                    <input type="text" name="localidad" id="localidad">
+                </div>
+                <div class="col">
+                    <label for="horario-de-referencia">Horario de Referencia</label>
+                    <input type="time" name="horario-de-referencia" min="8:00" max="18:00" step="1800"
+                        id="horario-de-referencia">
+                </div>
+                <div class="col">
+                    <p>Estado civil</p>
+                    <select name="estado-civil" id="estado-civil">
+                        <option value="soltero">Soltero</option>
+                        <option value="casado">Casado</option>
+                        <option value="divorciado">Divorciado</option>
+                        <option value="conviviente">Conviviente</option>
+                        <option value="viudo">Viudo</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="comentario-sobre-su-consulta">Comentario sobre su consulta</label> <br>
+                    <textarea name="comentario" id="comentario-sobre-su-consulta" cols="30" rows="10"></textarea>
+                </div>
+                <div class="col">
+                    <label for="newsletter">Deseo recibir newsletter</label>
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                </div>
+                <div class="col">
+                    <button type="reset">Borrar Formulario</button><button type="submit">Enviar Formulario</button>
+                </div>
         </fieldset>
     </form>
     <footer>
@@ -99,7 +120,7 @@
                 Contacto:
                 <a href="https://web.whatsapp.com/">Whatsapp</a>
                 <a
-                href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWsCPcBmlDKtgdDbDHQzxnwzDDTjjQbTjRxcDsxSSmrzXCcvWVBLWfhVXwGJjsvVhrgkzslwg">maildecontacto@gmail.com</a>
+                    href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWsCPcBmlDKtgdDbDHQzxnwzDDTjjQbTjRxcDsxSSmrzXCcvWVBLWfhVXwGJjsvVhrgkzslwg">maildecontacto@gmail.com</a>
             </div>
             <div class="col-md-4">
                 Comparti Nuestra pagina:

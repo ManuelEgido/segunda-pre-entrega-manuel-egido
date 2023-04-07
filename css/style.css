@@ -13,7 +13,9 @@ a {
   width: 100px;
   padding: 10px;
 }
-
+.navbar {
+  background-color: #a3a2b8 !important;
+}
 nav {
   display: flex;
   width: 100%;
@@ -50,7 +52,7 @@ section div {
 }
 
 h2 {
-  width: 60%;
+  max-width: 800px;
 }
 
 h3 {
@@ -58,7 +60,7 @@ h3 {
   color: #6c6a8a;
   padding-top: 15px;
   padding-left: 15px;
-  width: 60%;
+  max-width: 800px;
 }
 
 .seccion {
@@ -97,5 +99,6 @@ footer a {
   color: #f0b49e;
   display: block;
 }
+
 
 /*# sourceMappingURL=style.css.map */
