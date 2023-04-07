@@ -1,8 +1,6 @@
 @mixin body {
     font-family: 'Lato', sans-serif;
     background-color: #8785a2;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 body {
@@ -48,15 +46,13 @@ p {
 }
 
 .nota-indice {
-    padding-left: 50px;
-    max-width: 90%;
+ max-width: 90%;
 }
 
 section div {
         background-color: #dcdcdcb8;
         font-size: 1.2rem;
         font-weight: 600;
-        padding: 50px;
         margin-bottom: 20px;
     }
 
@@ -75,14 +71,10 @@ h3 {
 
 .seccion {
     display: flex wrap;
-    padding: 20px;
 }
 
-.img-box {
-    padding: 15px;
+.img-box { 
     margin: 0px auto;
-    width: 700px;
-    height: 500px;
 }
 
 #ulMentoria {
