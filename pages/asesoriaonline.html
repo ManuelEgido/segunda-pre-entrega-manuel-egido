@@ -35,35 +35,35 @@
     </header>
     <h1>Asesoria Online</h1>
 
-    <form>
+    <form class="container">
         <fieldset>
-        <div class="row">
-            <div class="col-6">
+        <div class="row-cols-1">
+            <div class="col">
                 <legend>Datos personales</legend>
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" id="nombre">
             </div>
-            <div class="col-6">
+            <div class="col">
                 <label for="apellido">Apellido</label>
                 <input type="text" name="apellido" id="apellido">
             </div>
-            <div class="col-6">
+            <div class="col">
                 <label for="telefono">Telefono</label>
                 <input type="tel" name="telefono" id="telefono">
             </div>
-            <div class="col-6">
+            <div class="col">
                 <label for="mail">Mail</label>
                 <input type="email" name="mail" id="mail">
             </div>
-            <div class="col-6">
+            <div class="col">
                 <label for="localidad">Localidad</label>
                 <input type="text" name="localidad" id="localidad">
             </div>
-            <div class="col-6">
+            <div class="col">
                 <label for="horario-de-referencia">Horario de Referencia</label>
                 <input type="time" name="horario-de-referencia" min="8:00" max="18:00" step="1800" id="horario-de-referencia">
             </div>
-            <div class="col-12">
+            <div class="col">
                 <p>Estado civil</p>
                 <select name="estado-civil" id="estado-civil">
                     <option value="soltero">Soltero</option>
@@ -73,15 +73,15 @@
                     <option value="viudo">Viudo</option>
                 </select>
             </div>
-            <div class="col-12">
-                <label for="comentario-sobre-su-consulta">Comentario sobre su consulta</label>
+            <div class="col">
+                <label for="comentario-sobre-su-consulta">Comentario sobre su consulta</label> <br>
                 <textarea name="comentario" id="comentario-sobre-su-consulta" cols="30" rows="10"></textarea>
             </div>
-            <div class="col-6">
+            <div class="col">
                 <label for="newsletter">Deseo recibir newsletter</label>
                 <input type="checkbox" name="newsletter" id="newsletter">
             </div>
-            <div class="col-6">
+            <div class="col">
                 <button type="reset">Borrar Formulario</button><button type="submit">Enviar Formulario</button>
             </div>
         </fieldset>
